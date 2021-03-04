@@ -26,7 +26,6 @@ import kotlin.math.PI
 import kotlin.math.cos
 import kotlin.math.sin
 
-// Start building your app here!
 @Composable
 fun MyApp(viewModel: CountdownViewModel) {
     var isPause by remember { mutableStateOf(false) }
